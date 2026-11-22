@@ -1,0 +1,505 @@
+{
+  "summary": {
+    "raw_sessions": 12330,
+    "identical_rows_retained": 125,
+    "train_sessions": 7056,
+    "validation_sessions": 549,
+    "test_sessions": 4725,
+    "chosen_model": "Random forest",
+    "test": {
+      "average_precision": 0.3374910555441324,
+      "roc_auc": 0.70841104075841,
+      "brier": 0.1549088109704722,
+      "positive_rate": 0.20656084656084656,
+      "sessions": 4725
+    },
+    "baseline": {
+      "average_precision": 0.20656084656084656,
+      "roc_auc": 0.5,
+      "brier": 0.1709511253912205,
+      "positive_rate": 0.20656084656084656,
+      "sessions": 4725
+    },
+    "validation": {
+      "Logistic regression": {
+        "average_precision": 0.267099152008456,
+        "roc_auc": 0.6105389701462633,
+        "brier": 0.16587877344477803,
+        "positive_rate": 0.20947176684881602,
+        "sessions": 549
+      },
+      "Random forest": {
+        "average_precision": 0.30334061807283563,
+        "roc_auc": 0.5909436986575837,
+        "brier": 0.1650036550775262,
+        "positive_rate": 0.20947176684881602,
+        "sessions": 549
+      }
+    },
+    "locked_threshold": 0.22745882717517463,
+    "locked_result": {
+      "threshold": 0.23,
+      "precision": 0.3593073593073593,
+      "recall": 0.3401639344262295,
+      "flagged": 924,
+      "tp": 332,
+      "fp": 592,
+      "fn": 644,
+      "tn": 3157
+    }
+  },
+  "thresholds": [
+    {
+      "threshold": 0.05,
+      "precision": 0.2467906733036416,
+      "recall": 0.9651639344262295,
+      "flagged": 3817,
+      "tp": 942,
+      "fp": 2875,
+      "fn": 34,
+      "tn": 874
+    },
+    {
+      "threshold": 0.1,
+      "precision": 0.2775357809583074,
+      "recall": 0.9139344262295082,
+      "flagged": 3214,
+      "tp": 892,
+      "fp": 2322,
+      "fn": 84,
+      "tn": 1427
+    },
+    {
+      "threshold": 0.15,
+      "precision": 0.31681877444589307,
+      "recall": 0.7469262295081968,
+      "flagged": 2301,
+      "tp": 729,
+      "fp": 1572,
+      "fn": 247,
+      "tn": 2177
+    },
+    {
+      "threshold": 0.2,
+      "precision": 0.33849728892331526,
+      "recall": 0.44774590163934425,
+      "flagged": 1291,
+      "tp": 437,
+      "fp": 854,
+      "fn": 539,
+      "tn": 2895
+    },
+    {
+      "threshold": 0.25,
+      "precision": 0.3699851411589896,
+      "recall": 0.2551229508196721,
+      "flagged": 673,
+      "tp": 249,
+      "fp": 424,
+      "fn": 727,
+      "tn": 3325
+    },
+    {
+      "threshold": 0.3,
+      "precision": 0.367003367003367,
+      "recall": 0.11168032786885246,
+      "flagged": 297,
+      "tp": 109,
+      "fp": 188,
+      "fn": 867,
+      "tn": 3561
+    },
+    {
+      "threshold": 0.35,
+      "precision": 0.3475609756097561,
+      "recall": 0.0584016393442623,
+      "flagged": 164,
+      "tp": 57,
+      "fp": 107,
+      "fn": 919,
+      "tn": 3642
+    },
+    {
+      "threshold": 0.4,
+      "precision": 0.36065573770491804,
+      "recall": 0.045081967213114756,
+      "flagged": 122,
+      "tp": 44,
+      "fp": 78,
+      "fn": 932,
+      "tn": 3671
+    },
+    {
+      "threshold": 0.45,
+      "precision": 0.35064935064935066,
+      "recall": 0.027663934426229508,
+      "flagged": 77,
+      "tp": 27,
+      "fp": 50,
+      "fn": 949,
+      "tn": 3699
+    },
+    {
+      "threshold": 0.5,
+      "precision": 0.4444444444444444,
+      "recall": 0.01639344262295082,
+      "flagged": 36,
+      "tp": 16,
+      "fp": 20,
+      "fn": 960,
+      "tn": 3729
+    },
+    {
+      "threshold": 0.55,
+      "precision": 0.5,
+      "recall": 0.0010245901639344263,
+      "flagged": 2,
+      "tp": 1,
+      "fp": 1,
+      "fn": 975,
+      "tn": 3748
+    },
+    {
+      "threshold": 0.6,
+      "precision": 0.0,
+      "recall": 0.0,
+      "flagged": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 976,
+      "tn": 3749
+    },
+    {
+      "threshold": 0.65,
+      "precision": 0.0,
+      "recall": 0.0,
+      "flagged": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 976,
+      "tn": 3749
+    },
+    {
+      "threshold": 0.7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "flagged": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 976,
+      "tn": 3749
+    },
+    {
+      "threshold": 0.75,
+      "precision": 0.0,
+      "recall": 0.0,
+      "flagged": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 976,
+      "tn": 3749
+    },
+    {
+      "threshold": 0.8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "flagged": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 976,
+      "tn": 3749
+    },
+    {
+      "threshold": 0.85,
+      "precision": 0.0,
+      "recall": 0.0,
+      "flagged": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 976,
+      "tn": 3749
+    },
+    {
+      "threshold": 0.9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "flagged": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 976,
+      "tn": 3749
+    },
+    {
+      "threshold": 0.95,
+      "precision": 0.0,
+      "recall": 0.0,
+      "flagged": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 976,
+      "tn": 3749
+    }
+  ],
+  "groups": [
+    {
+      "Month": "Aug",
+      "VisitorType": "New_Visitor",
+      "sessions": 72,
+      "purchases": 21,
+      "conversion_rate": 0.2916666666666667
+    },
+    {
+      "Month": "Aug",
+      "VisitorType": "Returning_Visitor",
+      "sessions": 361,
+      "purchases": 55,
+      "conversion_rate": 0.1523545706371191
+    },
+    {
+      "Month": "Dec",
+      "VisitorType": "New_Visitor",
+      "sessions": 335,
+      "purchases": 75,
+      "conversion_rate": 0.22388059701492538
+    },
+    {
+      "Month": "Dec",
+      "VisitorType": "Other",
+      "sessions": 62,
+      "purchases": 13,
+      "conversion_rate": 0.20967741935483872
+    },
+    {
+      "Month": "Dec",
+      "VisitorType": "Returning_Visitor",
+      "sessions": 1330,
+      "purchases": 128,
+      "conversion_rate": 0.0962406015037594
+    },
+    {
+      "Month": "Feb",
+      "VisitorType": "New_Visitor",
+      "sessions": 1,
+      "purchases": 0,
+      "conversion_rate": 0.0
+    },
+    {
+      "Month": "Feb",
+      "VisitorType": "Returning_Visitor",
+      "sessions": 183,
+      "purchases": 3,
+      "conversion_rate": 0.01639344262295082
+    },
+    {
+      "Month": "Jul",
+      "VisitorType": "New_Visitor",
+      "sessions": 54,
+      "purchases": 11,
+      "conversion_rate": 0.2037037037037037
+    },
+    {
+      "Month": "Jul",
+      "VisitorType": "Returning_Visitor",
+      "sessions": 378,
+      "purchases": 55,
+      "conversion_rate": 0.1455026455026455
+    },
+    {
+      "Month": "June",
+      "VisitorType": "New_Visitor",
+      "sessions": 30,
+      "purchases": 7,
+      "conversion_rate": 0.23333333333333334
+    },
+    {
+      "Month": "June",
+      "VisitorType": "Other",
+      "sessions": 1,
+      "purchases": 0,
+      "conversion_rate": 0.0
+    },
+    {
+      "Month": "June",
+      "VisitorType": "Returning_Visitor",
+      "sessions": 257,
+      "purchases": 22,
+      "conversion_rate": 0.08560311284046693
+    },
+    {
+      "Month": "Mar",
+      "VisitorType": "New_Visitor",
+      "sessions": 232,
+      "purchases": 36,
+      "conversion_rate": 0.15517241379310345
+    },
+    {
+      "Month": "Mar",
+      "VisitorType": "Returning_Visitor",
+      "sessions": 1675,
+      "purchases": 156,
+      "conversion_rate": 0.09313432835820895
+    },
+    {
+      "Month": "May",
+      "VisitorType": "New_Visitor",
+      "sessions": 319,
+      "purchases": 88,
+      "conversion_rate": 0.27586206896551724
+    },
+    {
+      "Month": "May",
+      "VisitorType": "Returning_Visitor",
+      "sessions": 3045,
+      "purchases": 277,
+      "conversion_rate": 0.0909688013136289
+    },
+    {
+      "Month": "Nov",
+      "VisitorType": "New_Visitor",
+      "sessions": 419,
+      "purchases": 128,
+      "conversion_rate": 0.3054892601431981
+    },
+    {
+      "Month": "Nov",
+      "VisitorType": "Other",
+      "sessions": 22,
+      "purchases": 3,
+      "conversion_rate": 0.13636363636363635
+    },
+    {
+      "Month": "Nov",
+      "VisitorType": "Returning_Visitor",
+      "sessions": 2557,
+      "purchases": 629,
+      "conversion_rate": 0.24599139616738366
+    },
+    {
+      "Month": "Oct",
+      "VisitorType": "New_Visitor",
+      "sessions": 124,
+      "purchases": 28,
+      "conversion_rate": 0.22580645161290322
+    },
+    {
+      "Month": "Oct",
+      "VisitorType": "Returning_Visitor",
+      "sessions": 425,
+      "purchases": 87,
+      "conversion_rate": 0.20470588235294118
+    },
+    {
+      "Month": "Sep",
+      "VisitorType": "New_Visitor",
+      "sessions": 108,
+      "purchases": 28,
+      "conversion_rate": 0.25925925925925924
+    },
+    {
+      "Month": "Sep",
+      "VisitorType": "Returning_Visitor",
+      "sessions": 340,
+      "purchases": 58,
+      "conversion_rate": 0.17058823529411765
+    }
+  ],
+  "importance": [
+    {
+      "feature": "ProductRelated_Duration",
+      "ap_drop": 0.033139588712191435,
+      "std": 0.004528646818601853
+    },
+    {
+      "feature": "ExitRates",
+      "ap_drop": 0.029952799452545215,
+      "std": 0.004314898050978352
+    },
+    {
+      "feature": "VisitorType",
+      "ap_drop": 0.02813649638431115,
+      "std": 0.008543241241777837
+    },
+    {
+      "feature": "BounceRates",
+      "ap_drop": 0.009961498977387592,
+      "std": 0.0029721535805429695
+    },
+    {
+      "feature": "OperatingSystems",
+      "ap_drop": 0.009521895778417833,
+      "std": 0.002835958908301222
+    },
+    {
+      "feature": "ProductRelated",
+      "ap_drop": 0.004067282759506963,
+      "std": 0.0021995100624687893
+    },
+    {
+      "feature": "Informational_Duration",
+      "ap_drop": 0.0032759793782186075,
+      "std": 0.00043179170729862993
+    },
+    {
+      "feature": "Region",
+      "ap_drop": 0.001942020066787305,
+      "std": 0.0009575639798316513
+    },
+    {
+      "feature": "Browser",
+      "ap_drop": 0.0017783692924617605,
+      "std": 0.0008509289851851425
+    },
+    {
+      "feature": "Weekend",
+      "ap_drop": 0.0015911316932692803,
+      "std": 0.0004092798076557282
+    },
+    {
+      "feature": "Administrative_Duration",
+      "ap_drop": 0.00035255079327347244,
+      "std": 0.0015456139667529606
+    },
+    {
+      "feature": "TrafficType",
+      "ap_drop": 0.00011919349530109535,
+      "std": 0.0030865127884840094
+    },
+    {
+      "feature": "Informational",
+      "ap_drop": 9.26127418894677e-05,
+      "std": 0.0012064402560732796
+    },
+    {
+      "feature": "SpecialDay",
+      "ap_drop": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "Administrative",
+      "ap_drop": -0.0021134329046656464,
+      "std": 0.002254679986807385
+    }
+  ],
+  "features": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "SpecialDay",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "VisitorType",
+    "Weekend"
+  ],
+  "excluded": [
+    "Revenue (target)",
+    "PageValues (potential target leakage)",
+    "Month (split variable)"
+  ]
+}
