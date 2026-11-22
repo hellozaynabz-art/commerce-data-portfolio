@@ -4,3 +4,5 @@
 .bar-row>span{overflow-wrap:anywhere}
 
 .dash-bottom>section,.split>div,.about-grid>div,.hero-grid>div,.project-card{min-width:0}
+
+.nav-wrap nav{flex-wrap:wrap}@media(max-width:600px){.nav-wrap nav{gap:17px}}

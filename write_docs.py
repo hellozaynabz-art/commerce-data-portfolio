@@ -16,6 +16,10 @@ Three independent, completed public-data projects. Each includes executable anal
 | Retail demand planning | Does a model beat a weekly baseline? | {fore['mae_change']:.1%} lower held-out MAE for validation-selected methods | [Code](demand-planning) · [Dashboard]({base}demand-planning.html) |
 | Ecommerce conversion | How does a score threshold change precision and recall? | {conv['test']['average_precision']:.3f} average precision vs. {conv['baseline']['average_precision']:.3f} baseline | [Code](conversion-intelligence) · [Dashboard]({base}conversion-intelligence.html) |
 
+## Live AI demos
+
+[Try the chatbot, agent, reusable skill, and connected retail plugin]({base}ai-demos.html). Visitors can describe their own tasks. See [AI_DEMOS.md](AI_DEMOS.md) for scopes, privacy, review controls, and usage limits.
+
 ## Reproduce everything
 
 Python 3.12 was used for the recorded run. Create an isolated environment, install the pinned requirements, and run:
@@ -34,7 +38,7 @@ python -m http.server 8765
 
 Open `http://localhost:8765`. The first run downloads two official UCI archives (about 24 MB total); later runs use the local cache. A recorded SHA-256 mismatch stops the build for review. Raw archives are excluded from Git. Model fitting is deterministic with seed 42; small numerical variation across hardware is possible.
 
-`python run_all.py` runs each analysis and exports `portfolio-data.json`. `build_site.py` regenerates the seven public pages from the results. No paid API, account, database server, or secret is needed.
+`python run_all.py` runs each analysis and exports `portfolio-data.json`. `build_site.py` regenerates the eight public pages from the results. The three data projects run without an API key. The live AI demos use a separate protected service; no key is included here.
 
 ## Repository map
 
