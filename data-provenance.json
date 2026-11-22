@@ -1,0 +1,20 @@
+{
+  "retail": {
+    "url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+    "member": "Online Retail.xlsx",
+    "doi": "https://doi.org/10.24432/C5BW33",
+    "citation": "Chen, D. (2015). Online Retail. UCI Machine Learning Repository.",
+    "license": "CC BY 4.0",
+    "sha256": "f5385cbb54bbebf7196389109c6b0621faab0c304e3702548165e71c84aede8b",
+    "raw_rows": 541909
+  },
+  "shoppers": {
+    "url": "https://archive.ics.uci.edu/static/public/468/online%2Bshoppers%2Bpurchasing%2Bintention%2Bdataset.zip",
+    "member": "online_shoppers_intention.csv",
+    "doi": "https://doi.org/10.24432/C5F88Q",
+    "citation": "Sakar, C. & Kastro, Y. (2018). Online Shoppers Purchasing Intention Dataset. UCI Machine Learning Repository.",
+    "license": "CC BY 4.0",
+    "sha256": "2972e6184d3ad7beaaa831d9fc2b059dc3ee29df69d1ec593c466a5cd8485d14",
+    "raw_rows": 12330
+  }
+}
