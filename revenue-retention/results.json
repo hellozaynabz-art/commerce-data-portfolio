@@ -1,0 +1,678 @@
+{
+  "summary": {
+    "gross_sales": 8841679.899999999,
+    "credit_value": 283645.14,
+    "net_sales": 8558034.76,
+    "orders": 17406,
+    "known_customers": 4168,
+    "repeat_share": 0.6259596928982726,
+    "identified_revenue_share": 0.8647756169051088,
+    "credit_to_gross": 0.03208045792293386,
+    "period": "Jan\u2013Nov 2011",
+    "raw_rows": 541909,
+    "duplicate_rows": 5268,
+    "missing_customer_rows": 135080,
+    "filtered_lines": 464227,
+    "first_return_rate": 0.2342436974789916
+  },
+  "monthly": [
+    {
+      "month": "2011-01",
+      "region": "International",
+      "gross_sales": 124437.53,
+      "credit_value": 1396.77,
+      "net_sales": 123040.76,
+      "orders": 114
+    },
+    {
+      "month": "2011-01",
+      "region": "United Kingdom",
+      "gross_sales": 544839.2,
+      "credit_value": 90128.28,
+      "net_sales": 454710.92,
+      "orders": 966
+    },
+    {
+      "month": "2011-02",
+      "region": "International",
+      "gross_sales": 89710.9,
+      "credit_value": 3347.01,
+      "net_sales": 86363.89,
+      "orders": 103
+    },
+    {
+      "month": "2011-02",
+      "region": "United Kingdom",
+      "gross_sales": 417288.59,
+      "credit_value": 4988.51,
+      "net_sales": 412300.08,
+      "orders": 990
+    },
+    {
+      "month": "2011-03",
+      "region": "International",
+      "gross_sales": 118290.63,
+      "credit_value": 953.82,
+      "net_sales": 117336.81,
+      "orders": 138
+    },
+    {
+      "month": "2011-03",
+      "region": "United Kingdom",
+      "gross_sales": 570654.58,
+      "credit_value": 9550.48,
+      "net_sales": 561104.1,
+      "orders": 1302
+    },
+    {
+      "month": "2011-04",
+      "region": "International",
+      "gross_sales": 49961.02,
+      "credit_value": 2776.89,
+      "net_sales": 47184.13,
+      "orders": 87
+    },
+    {
+      "month": "2011-04",
+      "region": "United Kingdom",
+      "gross_sales": 464783.5,
+      "credit_value": 30527.27,
+      "net_sales": 434256.23,
+      "orders": 1148
+    },
+    {
+      "month": "2011-05",
+      "region": "International",
+      "gross_sales": 121277.97,
+      "credit_value": 386.61,
+      "net_sales": 120891.36,
+      "orders": 150
+    },
+    {
+      "month": "2011-05",
+      "region": "United Kingdom",
+      "gross_sales": 617446.61,
+      "credit_value": 8561.62,
+      "net_sales": 608884.99,
+      "orders": 1518
+    },
+    {
+      "month": "2011-06",
+      "region": "International",
+      "gross_sales": 132367.51,
+      "credit_value": 1827.37,
+      "net_sales": 130540.14,
+      "orders": 146
+    },
+    {
+      "month": "2011-06",
+      "region": "United Kingdom",
+      "gross_sales": 604242.08,
+      "credit_value": 11881.52,
+      "net_sales": 592360.56,
+      "orders": 1379
+    },
+    {
+      "month": "2011-07",
+      "region": "International",
+      "gross_sales": 110766.98,
+      "credit_value": 844.75,
+      "net_sales": 109922.23,
+      "orders": 135
+    },
+    {
+      "month": "2011-07",
+      "region": "United Kingdom",
+      "gross_sales": 574652.33,
+      "credit_value": 9968.51,
+      "net_sales": 564683.82,
+      "orders": 1317
+    },
+    {
+      "month": "2011-08",
+      "region": "International",
+      "gross_sales": 145431.2,
+      "credit_value": 5655.2,
+      "net_sales": 139776.0,
+      "orders": 144
+    },
+    {
+      "month": "2011-08",
+      "region": "United Kingdom",
+      "gross_sales": 577412.95,
+      "credit_value": 17265.42,
+      "net_sales": 560147.53,
+      "orders": 1195
+    },
+    {
+      "month": "2011-09",
+      "region": "International",
+      "gross_sales": 152072.75,
+      "credit_value": 1148.33,
+      "net_sales": 150924.42,
+      "orders": 187
+    },
+    {
+      "month": "2011-09",
+      "region": "United Kingdom",
+      "gross_sales": 874645.6,
+      "credit_value": 15832.31,
+      "net_sales": 858813.29,
+      "orders": 1631
+    },
+    {
+      "month": "2011-10",
+      "region": "International",
+      "gross_sales": 191507.72,
+      "credit_value": 7072.09,
+      "net_sales": 184435.63,
+      "orders": 216
+    },
+    {
+      "month": "2011-10",
+      "region": "United Kingdom",
+      "gross_sales": 908848.37,
+      "credit_value": 34540.94,
+      "net_sales": 874307.43,
+      "orders": 1789
+    },
+    {
+      "month": "2011-11",
+      "region": "International",
+      "gross_sales": 170949.89,
+      "credit_value": 3036.68,
+      "net_sales": 167913.21,
+      "orders": 270
+    },
+    {
+      "month": "2011-11",
+      "region": "United Kingdom",
+      "gross_sales": 1280091.99,
+      "credit_value": 21954.76,
+      "net_sales": 1258137.23,
+      "orders": 2481
+    }
+  ],
+  "segments": [
+    {
+      "segment": "Active repeat",
+      "customers": 1840,
+      "gross": 6106238.06
+    },
+    {
+      "segment": "Dormant one-time",
+      "customers": 994,
+      "gross": 441613.21
+    },
+    {
+      "segment": "Lapsed repeat",
+      "customers": 769,
+      "gross": 891794.14
+    },
+    {
+      "segment": "Recent one-time",
+      "customers": 565,
+      "gross": 206423.78
+    }
+  ],
+  "cohorts": [
+    {
+      "cohort": "2011-01",
+      "age": 0,
+      "customers": 739,
+      "rate": 1.0
+    },
+    {
+      "cohort": "2011-01",
+      "age": 1,
+      "customers": 260,
+      "rate": 0.35182679296346414
+    },
+    {
+      "cohort": "2011-01",
+      "age": 2,
+      "customers": 319,
+      "rate": 0.4316644113667118
+    },
+    {
+      "cohort": "2011-01",
+      "age": 3,
+      "customers": 283,
+      "rate": 0.38294993234100133
+    },
+    {
+      "cohort": "2011-01",
+      "age": 4,
+      "customers": 336,
+      "rate": 0.4546684709066306
+    },
+    {
+      "cohort": "2011-01",
+      "age": 5,
+      "customers": 311,
+      "rate": 0.4208389715832206
+    },
+    {
+      "cohort": "2011-01",
+      "age": 6,
+      "customers": 290,
+      "rate": 0.39242219215155616
+    },
+    {
+      "cohort": "2011-01",
+      "age": 7,
+      "customers": 283,
+      "rate": 0.38294993234100133
+    },
+    {
+      "cohort": "2011-01",
+      "age": 8,
+      "customers": 321,
+      "rate": 0.43437077131258456
+    },
+    {
+      "cohort": "2011-01",
+      "age": 9,
+      "customers": 308,
+      "rate": 0.4167794316644114
+    },
+    {
+      "cohort": "2011-01",
+      "age": 10,
+      "customers": 380,
+      "rate": 0.5142083897158322
+    },
+    {
+      "cohort": "2011-02",
+      "age": 0,
+      "customers": 497,
+      "rate": 1.0
+    },
+    {
+      "cohort": "2011-02",
+      "age": 1,
+      "customers": 116,
+      "rate": 0.23340040241448692
+    },
+    {
+      "cohort": "2011-02",
+      "age": 2,
+      "customers": 122,
+      "rate": 0.2454728370221328
+    },
+    {
+      "cohort": "2011-02",
+      "age": 3,
+      "customers": 171,
+      "rate": 0.3440643863179074
+    },
+    {
+      "cohort": "2011-02",
+      "age": 4,
+      "customers": 155,
+      "rate": 0.3118712273641851
+    },
+    {
+      "cohort": "2011-02",
+      "age": 5,
+      "customers": 134,
+      "rate": 0.26961770623742454
+    },
+    {
+      "cohort": "2011-02",
+      "age": 6,
+      "customers": 153,
+      "rate": 0.30784708249496984
+    },
+    {
+      "cohort": "2011-02",
+      "age": 7,
+      "customers": 162,
+      "rate": 0.32595573440643866
+    },
+    {
+      "cohort": "2011-02",
+      "age": 8,
+      "customers": 154,
+      "rate": 0.30985915492957744
+    },
+    {
+      "cohort": "2011-02",
+      "age": 9,
+      "customers": 181,
+      "rate": 0.3641851106639839
+    },
+    {
+      "cohort": "2011-03",
+      "age": 0,
+      "customers": 538,
+      "rate": 1.0
+    },
+    {
+      "cohort": "2011-03",
+      "age": 1,
+      "customers": 87,
+      "rate": 0.16171003717472118
+    },
+    {
+      "cohort": "2011-03",
+      "age": 2,
+      "customers": 144,
+      "rate": 0.26765799256505574
+    },
+    {
+      "cohort": "2011-03",
+      "age": 3,
+      "customers": 119,
+      "rate": 0.2211895910780669
+    },
+    {
+      "cohort": "2011-03",
+      "age": 4,
+      "customers": 123,
+      "rate": 0.22862453531598512
+    },
+    {
+      "cohort": "2011-03",
+      "age": 5,
+      "customers": 100,
+      "rate": 0.18587360594795538
+    },
+    {
+      "cohort": "2011-03",
+      "age": 6,
+      "customers": 153,
+      "rate": 0.2843866171003718
+    },
+    {
+      "cohort": "2011-03",
+      "age": 7,
+      "customers": 129,
+      "rate": 0.23977695167286245
+    },
+    {
+      "cohort": "2011-03",
+      "age": 8,
+      "customers": 162,
+      "rate": 0.30111524163568776
+    },
+    {
+      "cohort": "2011-04",
+      "age": 0,
+      "customers": 361,
+      "rate": 1.0
+    },
+    {
+      "cohort": "2011-04",
+      "age": 1,
+      "customers": 84,
+      "rate": 0.23268698060941828
+    },
+    {
+      "cohort": "2011-04",
+      "age": 2,
+      "customers": 79,
+      "rate": 0.2188365650969529
+    },
+    {
+      "cohort": "2011-04",
+      "age": 3,
+      "customers": 85,
+      "rate": 0.23545706371191136
+    },
+    {
+      "cohort": "2011-04",
+      "age": 4,
+      "customers": 76,
+      "rate": 0.21052631578947367
+    },
+    {
+      "cohort": "2011-04",
+      "age": 5,
+      "customers": 85,
+      "rate": 0.23545706371191136
+    },
+    {
+      "cohort": "2011-04",
+      "age": 6,
+      "customers": 88,
+      "rate": 0.24376731301939059
+    },
+    {
+      "cohort": "2011-04",
+      "age": 7,
+      "customers": 107,
+      "rate": 0.296398891966759
+    },
+    {
+      "cohort": "2011-05",
+      "age": 0,
+      "customers": 319,
+      "rate": 1.0
+    },
+    {
+      "cohort": "2011-05",
+      "age": 1,
+      "customers": 58,
+      "rate": 0.18181818181818182
+    },
+    {
+      "cohort": "2011-05",
+      "age": 2,
+      "customers": 56,
+      "rate": 0.1755485893416928
+    },
+    {
+      "cohort": "2011-05",
+      "age": 3,
+      "customers": 58,
+      "rate": 0.18181818181818182
+    },
+    {
+      "cohort": "2011-05",
+      "age": 4,
+      "customers": 70,
+      "rate": 0.219435736677116
+    },
+    {
+      "cohort": "2011-05",
+      "age": 5,
+      "customers": 77,
+      "rate": 0.2413793103448276
+    },
+    {
+      "cohort": "2011-05",
+      "age": 6,
+      "customers": 88,
+      "rate": 0.27586206896551724
+    },
+    {
+      "cohort": "2011-06",
+      "age": 0,
+      "customers": 268,
+      "rate": 1.0
+    },
+    {
+      "cohort": "2011-06",
+      "age": 1,
+      "customers": 47,
+      "rate": 0.17537313432835822
+    },
+    {
+      "cohort": "2011-06",
+      "age": 2,
+      "customers": 41,
+      "rate": 0.15298507462686567
+    },
+    {
+      "cohort": "2011-06",
+      "age": 3,
+      "customers": 68,
+      "rate": 0.2537313432835821
+    },
+    {
+      "cohort": "2011-06",
+      "age": 4,
+      "customers": 60,
+      "rate": 0.22388059701492538
+    },
+    {
+      "cohort": "2011-06",
+      "age": 5,
+      "customers": 90,
+      "rate": 0.3358208955223881
+    },
+    {
+      "cohort": "2011-07",
+      "age": 0,
+      "customers": 211,
+      "rate": 1.0
+    },
+    {
+      "cohort": "2011-07",
+      "age": 1,
+      "customers": 37,
+      "rate": 0.17535545023696683
+    },
+    {
+      "cohort": "2011-07",
+      "age": 2,
+      "customers": 46,
+      "rate": 0.21800947867298578
+    },
+    {
+      "cohort": "2011-07",
+      "age": 3,
+      "customers": 49,
+      "rate": 0.23222748815165878
+    },
+    {
+      "cohort": "2011-07",
+      "age": 4,
+      "customers": 57,
+      "rate": 0.27014218009478674
+    },
+    {
+      "cohort": "2011-08",
+      "age": 0,
+      "customers": 185,
+      "rate": 1.0
+    },
+    {
+      "cohort": "2011-08",
+      "age": 1,
+      "customers": 38,
+      "rate": 0.20540540540540542
+    },
+    {
+      "cohort": "2011-08",
+      "age": 2,
+      "customers": 46,
+      "rate": 0.24864864864864866
+    },
+    {
+      "cohort": "2011-08",
+      "age": 3,
+      "customers": 46,
+      "rate": 0.24864864864864866
+    },
+    {
+      "cohort": "2011-09",
+      "age": 0,
+      "customers": 316,
+      "rate": 1.0
+    },
+    {
+      "cohort": "2011-09",
+      "age": 1,
+      "customers": 76,
+      "rate": 0.24050632911392406
+    },
+    {
+      "cohort": "2011-09",
+      "age": 2,
+      "customers": 100,
+      "rate": 0.31645569620253167
+    },
+    {
+      "cohort": "2011-10",
+      "age": 0,
+      "customers": 374,
+      "rate": 1.0
+    },
+    {
+      "cohort": "2011-10",
+      "age": 1,
+      "customers": 89,
+      "rate": 0.23796791443850268
+    },
+    {
+      "cohort": "2011-11",
+      "age": 0,
+      "customers": 360,
+      "rate": 1.0
+    }
+  ],
+  "top_products": [
+    {
+      "StockCode": "22423",
+      "Description": "REGENCY CAKESTAND 3 TIER",
+      "gross": 140467.66,
+      "units": 11325
+    },
+    {
+      "StockCode": "47566",
+      "Description": "PARTY BUNTING",
+      "gross": 97319.01,
+      "units": 17910
+    },
+    {
+      "StockCode": "85123A",
+      "Description": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "gross": 91800.98,
+      "units": 33074
+    },
+    {
+      "StockCode": "85099B",
+      "Description": "JUMBO BAG RED RETROSPOT",
+      "gross": 87913.76,
+      "units": 45115
+    },
+    {
+      "StockCode": "23166",
+      "Description": "MEDIUM CERAMIC TOP STORAGE JAR",
+      "gross": 81448.21,
+      "units": 77826
+    },
+    {
+      "StockCode": "23084",
+      "Description": "RABBIT NIGHT LIGHT",
+      "gross": 57241.57,
+      "units": 26435
+    },
+    {
+      "StockCode": "84879",
+      "Description": "ASSORTED COLOUR BIRD ORNAMENT",
+      "gross": 52792.53,
+      "units": 32669
+    },
+    {
+      "StockCode": "22086",
+      "Description": "PAPER CHAIN KIT 50'S CHRISTMAS ",
+      "gross": 48799.73,
+      "units": 14787
+    },
+    {
+      "StockCode": "79321",
+      "Description": "CHILLI LIGHTS",
+      "gross": 43950.18,
+      "units": 8250
+    },
+    {
+      "StockCode": "23298",
+      "Description": "SPOTTY BUNTING",
+      "gross": 41748.62,
+      "units": 8182
+    }
+  ]
+}
