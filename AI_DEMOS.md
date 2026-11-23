@@ -4,8 +4,8 @@
 
 One page, four choices:
 
-- **Chatbot:** source-grounded answers about fictional Harbor product documentation. Refund sources deliberately conflict; the response must surface both.
-- **Agent:** model-selected ticket, documentation, invoice, and service-status tools. A fictional duplicate-charge reversal requires verified evidence and a human decision. No actual payments are possible.
+- **Chatbot:** plain-language answers from fictional Everyday Shop return, delivery, and product policies, plus grounded explanations of the retail projects.
+- **Agent:** model-selected shop-order, policy, payment, and historical project-data tools. Sample order #1042 has a duplicate $84 charge; #1043 has a delayed delivery. The agent can also explain forecast reliability or shopper-model tradeoffs. A fictional duplicate-charge reversal requires verified evidence and a human decision. No actual payments are possible.
 - **Reusable skill:** three recipes (project brief, project review, stakeholder update) applied by a live model to the visitor's own task. Exports a reviewable SKILL.md draft; nothing is installed.
 - **Connected plugin:** live function calling over computed public retail-project metrics, forecast evaluation, and conversion results. It is a working integration demo, not a browser extension or a connection to the visitor's store.
 
@@ -25,4 +25,8 @@ Chat history stays in page memory. Start fresh, change demo, or leave the page t
 
 ## Verification
 
-17 service tests cover existing behavior, new-mode validation, strict tool permissions, verified citations, malformed output, context limits, durable quotas, and approval replay handling. Separate bounded live-model tests verified a skill artifact and a retail-plugin response against the source metrics. Browser checks cover all four modes, downloads, review actions, loading/errors, and mobile navigation.
+Service tests cover existing behavior, new-mode validation, strict tool permissions, verified citations, malformed output, context limits, durable quotas, and approval replay handling. Separate bounded live-model tests verify shop policies, duplicate-payment review, forecast evidence, a skill artifact, and retail-plugin results. Browser checks cover all four modes, downloads, review actions, loading/errors, and mobile navigation.
+
+## Retail context and project connections
+
+The new page sends `scenario: "retail"` for chatbot and agent requests. Earlier portfolio clients keep the existing Harbor behavior by default. Fictional shop orders are never joined to the historical UCI project datasets. The UI links to the revenue, forecasting, and conversion case studies and states that the demo does not prove business lift. Chatbot questions use supplied policy documents; the agent can inspect only the two sample orders and the allowlisted historical project tools. A failed payment lookup retries once and then requires human review.
